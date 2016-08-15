@@ -51,7 +51,6 @@ IFRAME { border: none !important; }
     font-size: 90px;
     font-weight: bold;
     position: relative;
-    top: 9px;
     vertical-align: bottom;
 }
 .nav-logo
@@ -226,6 +225,12 @@ button.btn-navbar
 
 /* Sections
 -------------------------------------------------- */
+
+.full-logo {
+    margin-left: 10px;
+    margin-right: -10px;
+    width: 600px;
+}
 
 /* padding for in-page bookmarks and fixed navbar */
 section > .page-header,

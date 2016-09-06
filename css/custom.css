@@ -1319,3 +1319,17 @@ ul.ss-choices
 .licenses .price { font-weight: bold; }
 .licenses LABEL .title { padding-left: 10px; }
 .licenses LABEL INPUT { margin-bottom: 0; }
+
+.help-wanted
+{
+    background-color: #00abc7;
+    border-radius: 4px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+}
+.help-wanted a
+{
+    color: white !important;
+}

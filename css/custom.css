@@ -1320,16 +1320,53 @@ ul.ss-choices
 .licenses LABEL .title { padding-left: 10px; }
 .licenses LABEL INPUT { margin-bottom: 0; }
 
-.help-wanted
+.showcase
 {
-    background-color: #00abc7;
+    background-color: #f1f1f1;
     border-radius: 4px;
-    color: white;
     margin: 0 auto;
-    padding: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    position: relative;
     width: 50%;
 }
-.help-wanted a
+.showcase a
 {
-    color: white !important;
+    text-decoration: none;
+}
+.showcase .react-title
+{
+    color: #00abc7;
+    display: inline-block;
+    font-size: 47px;
+}
+.showcase .react-fine-uploader-logo .fine-uploader-logo
+{
+    vertical-align: baseline;
+}
+.showcase .ribbon-wrapper
+{
+    left: -3px;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    width: 85px;
+}
+.showcase .ribbon
+{
+    background-color: #00abc7;
+    color: #fff;
+    font: bold 15px sans-serif;
+    left: -30px;
+    padding: 7px 0;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 120px;
 }

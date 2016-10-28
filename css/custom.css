@@ -1341,10 +1341,12 @@ ul.ss-choices
 {
     color: #00abc7;
     display: inline-block;
+    font-family: proxima-nova;
     font-size: 47px;
 }
 .showcase .react-fine-uploader-logo .fine-uploader-logo
 {
+    margin-bottom: -2px;
     vertical-align: baseline;
 }
 .showcase .ribbon-wrapper

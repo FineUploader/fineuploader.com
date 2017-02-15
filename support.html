@@ -1,84 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Fine Uploader | Support and Technical Assistance</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Support and help portal for Fine Uploader" />
-        <meta name="keywords" content="fineuploader support, fine uploader support, fineuploader help, fine uploader help">
+<head>
+    <title>Fine Uploader Support</title>
+    <META http-equiv="refresh" content="0;URL=https://github.com/FineUploader/fine-uploader/issues">
+</head>
 
-        <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
-
-        <!--[if IE 8]>
-        <link rel="stylesheet" type="text/css" href="css/ie8.css" >
-        <![endif]-->
-
-        <link href="css/custom.css" rel="stylesheet">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script src="js/jquery.tipsy.min.js"></script>
-    </head>
-    <body>
-        <div class="jumbotron-small fixed">
-            <div class="container">
-                <div id="navbar"></div>
-            </div>
-        </div>
-
-        <div class="container marketing">
-            <h1>Support</h1>
-
-            <hr class="no-margin">
-            <hr class="no-margin">
-            <div class="spacer"></div>
-
-            <div class="row-fluid">
-                <section>
-                    <h3>Bugs & feature requests</h3>
-                    <p>If you believe you have discovered a bug in Fine Uploader, please file a bug or feature request in <a href="https://github.com/FineUploader/fine-uploader/issues" target="_blank">the GitHub issue tracker</a>. Please be sure the issue doesn't already exist. If it does, feel free to comment in the original issue instead. A template will appear once you open a new issue to guide you through the process.</p>
-                </section>
-
-                <div class="spacer"></div>
-
-                <section>
-                    <h3>"How do I do...?" or "Why isn't this working?"</h3>
-                    <p>For technical support questions, such as "How can I read a modify a file client-side and then send it to Fine Uploader for uploading?", or "Why isn't my onError callback being executed?", please post a question on <a href="http://stackoverflow.com/questions/tagged/fine-uploader" target="_blank">Stackoverflow under the established fine-uploader tag</a>. If you have never posted a question on Stackoverflow before, read the <a href="http://stackoverflow.com/help/how-to-ask" target="_blank">How do I ask a good question?" guide</a> first. Reading and understanding this guide will save you a lot of trouble and frustration later.</p>
-                </section>
-            </div>
-
-            <div class="spacer"></div>
-
-        </div>
-
-        <div id="footer"></div>
-
-        <script>
-            $('.dropdown-toggle').dropdown();
-            $.get('./navbar.html', function(data) {
-                $('#navbar').html(data);
-                if (window.location.hash == '') {
-                    $('#navbar').find('li').eq(0).addClass('active');
-                } else {
-                    $('#navbar').find('a[href$="' + window.location.hash + '"]').parent().addClass('active');
-                }
-            }); $.get('./header.html', function(data) {
-                $('#header').html(data);
-            });
-
-            $.get('./footer.html', function(data) { $('#footer').html(data); });
-
-            $(document).ready(function () {
-                $(document).on('click', '#navbar a', function() {
-                    if ($(this).attr('href').indexOf('./#') == 0) {
-                        $('#navbar li').removeClass('active');
-                        $(this).parent().addClass('active');
-                    }
-                });
-
-                $('a.tip').tipsy();
-            });
-        </script>
-    </body>
+<body>
+Redirecting to issue tracker...
+</body>
 </html>

@@ -118,7 +118,7 @@
         $('#fine-uploader-s3').fineUploaderS3({
             template: 'qq-template-s3',
             request: {
-                endpoint: "upload.fineuploader.com",
+                endpoint: "https://upload.fineuploader.com",
                 accessKey: "AKIAJB6BSMFWTAXC5M2Q"
             },
             signature: {

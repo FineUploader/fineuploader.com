@@ -7,10 +7,10 @@ var s3Uploader = new qq.s3.FineUploader({
         accessKey: "AKIAJB6BSMFWTAXC5M2Q"
     },
     signature: {
-        endpoint: "http://s3-demo.fineuploader.com/s3demo-thumbnails-cors.php"
+        endpoint: "https://s3-demo.fineuploader.com/s3demo-thumbnails-cors.php"
     },
     uploadSuccess: {
-        endpoint: "http://s3-demo.fineuploader.com/s3demo-thumbnails-cors.php?success",
+        endpoint: "https://s3-demo.fineuploader.com/s3demo-thumbnails-cors.php?success",
         params: {
             isBrowserPreviewCapable: qq.supportedFeatures.imagePreviews
         }
@@ -30,7 +30,7 @@ var s3Uploader = new qq.s3.FineUploader({
     deleteFile: {
         enabled: true,
         method: "POST",
-        endpoint: "http://s3-demo.fineuploader.com/s3demo-thumbnails-cors.php"
+        endpoint: "https://s3-demo.fineuploader.com/s3demo-thumbnails-cors.php"
     },
     validation: {
         itemLimit: 5,
